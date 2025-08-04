@@ -1,44 +1,48 @@
 # ELEVATE-INTERNSHIP-TASKS 1
+🧮 Basic Calculator - Python Console App
+This is a simple Python-based Basic Calculator that allows users to perform basic arithmetic operations: addition, subtraction, multiplication, and division.
 
-🔢 Console Calculator in Python
-Welcome to the Console Calculator – your minimal, no-fuss math buddy built with Python. Whether you're adding pizza slices 🍕 or dividing bills 💸, this calculator is here for you.
+🚀 Features
+Command-line interface
 
-✨ What's Inside?
-A simple terminal app that supports:
+Handles invalid inputs gracefully
 
-✅ Addition
-✅ Subtraction
-✅ Multiplication
-✅ Division (with zero-check!)
-✅ Clean user input handling
-✅ Looping until you're done
+Prevents division by zero
 
-🧰 Tech Used
-🐍 Python 3
+Easy to use and understand
 
-🖥️ Terminal / Command Line
+📋 Operations Supported
+Addition
 
-🚀 Getting Started
-🔧 Installation
-No installs needed if you have Python!
+Subtraction
 
-Clone this repo:
+Multiplication
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/console-calculator-python.git
-cd console-calculator-python
-Run it:
+Division
+
+Exit
+
+🛠️ How It Works
+The user is prompted to select an operation by entering a number (1–5). Then, two numeric inputs are taken, and the selected operation is performed. The result is displayed, and the user can continue until they choose to exit.
+
+📌 Requirements
+Python 3.x installed
+
+▶️ How to Run
+Clone the repository or copy the script.
+
+Open a terminal or command prompt.
+
+Run the script:
 
 bash
 Copy
 Edit
 python calculator.py
-Make sure Python is added to your PATH.
+Make sure the file is named calculator.py or update the name accordingly.
 
-📸 Sample Output
-mathematica
+💡 Example
+bash
 Copy
 Edit
 _Basic Calculator_
@@ -47,36 +51,19 @@ _Basic Calculator_
 3. Multiply
 4. Divide
 5. Exit
+Enter your option (1-5): 1
+Enter first number: 10
+Enter second number: 5
+Result: 15.0
+📂 File Structure
+bash
+Copy
+Edit
+calculator.py       # Main calculator script
+README.md           # Project documentation
+🧑‍💻 Author
+Srisailam Praneeth Gowd
+Feel free to fork and improve!
 
-Enter your option (1-5): 3
-Enter first number: 7
-Enter second number: 6
-Result: 42.0
-Handles invalid inputs and division-by-zero gracefully. 🛡️
-
-🎯 Why Use This?
-Clean beginner-friendly structure
-
-Good starting point for Python learners
-
-No third-party packages required
-
-Shows how to structure CLI programs
-
-💡 Customize Ideas
-You can extend this calculator to:
-
-Add support for exponentiation or modulus
-
-Add history of operations
-
-Create a GUI with tkinter
-
-Integrate voice input using speech_recognition
-
-👨‍💻 Author
-Made with 💙 by Srisailam Praneeth Gowd
-Feel free to contribute or fork!
-
-📜 License
-Licensed under the MIT License.
+📄 License
+This project is open-source and available under the MIT License.
